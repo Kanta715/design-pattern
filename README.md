@@ -3,3 +3,7 @@
 
 ## NOTE
 [サンプルコード](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src)をScalaで書いてみつつ、書籍内の問題にも取り組む
+
+- Iterator
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Iterator)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Interator)
