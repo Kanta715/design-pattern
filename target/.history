@@ -1,1 +1,16 @@
 compile
+Interator.Main 5
+run Interator.Main 5
+~run
+run Interator.Main 5
+Interator.Main run  5
+Iterator.Main run  5
+ run  5
+exit
+compile
+run
+run 4
+compile
+run Book1 Book2 Book3
+run
+run Book1 Book2 Book3
