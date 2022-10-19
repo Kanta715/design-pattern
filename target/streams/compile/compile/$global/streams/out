@@ -1,0 +1,31 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Facade/A3/Main.java:5:26: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m        String html = """[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Facade/A3/Main.java:15:12: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m        """.formatted(title, message);[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Facade/Q3/Main.java:3:26: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m        String html = """[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Facade/Q3/Main.java:13:12: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m        """;[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:1:2: illegal character: 8230[0m
+[0m[[0m[31merror[0m] [0m[0m…[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:3:1: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0mclass MyFileVisitor extends SimpleFileVisitor<Path> {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:4:6: illegal character: 8230[0m
+[0m[[0m[31merror[0m] [0m[0m    … preVisitDirectory(Path dir, …) throws IOException {[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:4:36: illegal character: 8230[0m
+[0m[[0m[31merror[0m] [0m[0m    … preVisitDirectory(Path dir, …) throws IOException {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:9:6: illegal character: 8230[0m
+[0m[[0m[31merror[0m] [0m[0m    … visitFile(Path file, …) throws IOException {[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kanta.inoue/design-pattern/src/main/java/src/Visitor/Q3/Main.java:9:29: illegal character: 8230[0m
+[0m[[0m[31merror[0m] [0m[0m    … visitFile(Path file, …) throws IOException {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
