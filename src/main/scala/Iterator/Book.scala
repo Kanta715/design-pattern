@@ -1,4 +1,4 @@
-package Interator
+package Iterator
 
 /**
  * 本を表すクラス

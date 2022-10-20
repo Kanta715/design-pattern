@@ -1,0 +1,8 @@
+#TEST
+#Fri Oct 21 01:29:46 JST 2022
+5=[ Yasuoka Yusuke ]
+4=[ Shimizu Takumi ]
+3=[ Kitayama Daiki ]
+2=[ Hamashita Koki ]
+1=[ Inoue Kanta ]
+0=[ Inoue Shintaro ]

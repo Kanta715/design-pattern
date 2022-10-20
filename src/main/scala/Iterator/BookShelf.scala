@@ -1,4 +1,4 @@
-package Interator
+package Iterator
 
 import java.util.Iterator
 
