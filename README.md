@@ -11,3 +11,7 @@
 - Adapter
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Adapter)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Adapter)
+
+- Template Method
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/TemplateMethod)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/TemplateMethod)
