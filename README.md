@@ -6,7 +6,7 @@
 
 - Iterator
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Iterator)
-  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Interator)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Iterator)
 
 - Adapter
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Adapter)
