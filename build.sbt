@@ -1,15 +1,14 @@
-import Dependencies._
-
 ThisBuild / scalaVersion     := "2.12.8"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.bonz"
 ThisBuild / organizationName := "bonz"
 
 lazy val root = (project in file("."))
-  .settings(s
-    name := "design-pattern",
-    libraryDependencies += scalaTest % Test,
+  .settings(
+    name := "design-pattern"
   )
+
+lazy val factoryMethod = (project in file(""))
 
 // Uncomment the following for publishing to Sonatype.
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for more detail.
