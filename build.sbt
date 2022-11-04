@@ -8,8 +8,6 @@ lazy val root = (project in file("."))
     name := "design-pattern"
   )
 
-lazy val factoryMethod = (project in file(""))
-
 // Uncomment the following for publishing to Sonatype.
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for more detail.
 
