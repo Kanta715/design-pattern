@@ -1,6 +1,6 @@
 package FactoryMethod.Framework
 
-abstract case class Factory(owner: String) {
+abstract class Factory {
 
   def createProduct: Product
 
