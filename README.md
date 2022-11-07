@@ -21,3 +21,7 @@
 - Factory Method
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/FactoryMethod)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/FactoryMethod)
+
+- Singleton
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Singleton)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Singleton)
