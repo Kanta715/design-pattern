@@ -4,6 +4,10 @@ import Prototype.Framework.Product
 
 case class UnderlinePen(underline: Char) extends Product {
 
+  // 問2: コピーコンストラクタを実装
+  // Java の clone は浅いコピーらしく scala の copy はどうやってるんだろうと思ったけどこんな感じなのかな
+  lazy val underlinePenCopy: UnderlinePen = UnderlinePen(underline)
+
   override def use(message: String): Unit = {
     val width = message.length
     println(message)

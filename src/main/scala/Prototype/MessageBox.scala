@@ -4,6 +4,10 @@ import Prototype.Framework.Product
 
 case class MessageBox(decoChar: Char) extends Product {
 
+  // 問2: コピーコンストラクタを実装
+  // Java の clone は浅いコピーらしく scala の copy はどうやってるんだろうと思ったけどこんな感じなのかな
+  lazy val messageBoxCopy: MessageBox = MessageBox(decoChar)
+
   override def use(message: String): Unit = {
     val width = message.length + 4
     printFrame(width)
