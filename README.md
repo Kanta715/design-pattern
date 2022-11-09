@@ -1,7 +1,7 @@
 # Design-Pattern
 [Java言語で学ぶデザインパターン入門 第3版](https://www.hyuki.com/dp/)を書きながら学習するためのリポジトリです
 
-各パッケージ内のAnserパッケージには、練習問題の自分の回答を書いています（問題文や書籍に載っている答えは書いていません）
+各パッケージ内のAnswerパッケージには、練習問題の自分の回答を書いています（問題文や書籍に載っている答えは書いていません）
 
 ## NOTE
 [サンプルコード](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src)をScalaで書いてみつつ、書籍内の問題にも取り組む
