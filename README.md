@@ -25,3 +25,7 @@
 - Singleton
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Singleton)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Singleton)
+
+- Prototype
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Prototype)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Prototype)
