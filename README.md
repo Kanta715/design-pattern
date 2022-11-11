@@ -29,3 +29,8 @@
 - Prototype
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Prototype)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Prototype)
+
+- Builder
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Builder)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Builder)
+
