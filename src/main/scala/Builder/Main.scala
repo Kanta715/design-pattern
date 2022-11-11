@@ -10,8 +10,8 @@ object Main {
     val PARAGRAPH: String      = "デザインパターンリスト"
     val ITEMS:     Seq[String] = Seq("Iterator", "Adapter", "FactoryMethod", "TemplateMethod", "Singleton", "Prototype")
 
-    val FILENAME2:  String = "answer"
-    val PARAGRAPH2: String = "Builder Pattern"
+    val FILENAME2:  String      = "answer"
+    val PARAGRAPH2: String      = "Builder Pattern"
     val ITEMS2:     Seq[String] = Seq("Builder")
 
     /**
