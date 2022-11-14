@@ -1,4 +1,4 @@
-package Singleton.Anser
+package Singleton.Answer
 
 sealed abstract class Triple(val name: String)
 

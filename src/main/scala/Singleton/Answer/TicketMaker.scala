@@ -1,4 +1,4 @@
-package Singleton.Anser
+package Singleton.Answer
 
 // TicketMaker.java を Singleton にする
 object TicketMaker {

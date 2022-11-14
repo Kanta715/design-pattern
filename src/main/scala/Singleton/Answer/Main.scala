@@ -1,4 +1,4 @@
-package Singleton.Anser
+package Singleton.Answer
 
 import scala.concurrent.ExecutionContext
 import java.util.concurrent.Executors

@@ -1,5 +1,9 @@
 package Builder
 
+import Builder.Abstract.Builder
+import Builder.Director.{ Director => DIRECTOR }
+import Builder.Concrete._
+
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -23,19 +27,19 @@ object Main {
       fileTypeOpt match {
         case Some("text")   =>
           val textBuilder:  Builder  = TextBuilder.create(FILENAME)
-          val textDirector: Director = Director(textBuilder)
+          val textDirector: DIRECTOR = Builder.Director.Director(textBuilder)
           textDirector.build(TITLE, PARAGRAPH, ITEMS)
         case Some("html")   =>
           val htmlBuilder:  Builder  = HTMLBuilder.create(FILENAME)
-          val htmlDirector: Director = Director(htmlBuilder)
+          val htmlDirector: DIRECTOR = Builder.Director.Director(htmlBuilder)
           htmlDirector.build(TITLE, PARAGRAPH, ITEMS)
         case Some("answer") =>
           val htmlBuilder:  Builder  = HTMLBuilder.create(FILENAME2)
-          val htmlDirector: Director = Director(htmlBuilder)
+          val htmlDirector: DIRECTOR = Builder.Director.Director(htmlBuilder)
           htmlDirector.build(TITLE, PARAGRAPH, ITEMS, PARAGRAPH2, ITEMS2)
         case Some("md")    =>
           val mdBuilder:  Builder  = ReadMeBuilder.create(FILENAME)
-          val mdDirector: Director = Director(mdBuilder)
+          val mdDirector: DIRECTOR = Builder.Director.Director(mdBuilder)
           mdDirector.build(TITLE, PARAGRAPH, ITEMS)
         case _              =>
           throw new IllegalArgumentException("!!!!!!!!!!!  ERROR: 出力するファイルを指定してください  !!!!!!!!!!")

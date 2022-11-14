@@ -1,6 +1,8 @@
-package Builder
+package Builder.Concrete
 
-import java.io.{ File, FileWriter }
+import Builder.Abstract.Builder
+
+import java.io.{File, FileWriter}
 
 // 問3 他の 具象型の Builder を作る
 case class ReadMeBuilder(
