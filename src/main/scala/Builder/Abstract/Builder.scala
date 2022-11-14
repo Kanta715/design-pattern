@@ -1,6 +1,6 @@
-package Builder
+package Builder.Abstract
 
-import java.io.{ File, FileWriter }
+import java.io.{File, FileWriter}
 
 abstract class Builder(fileName: String, file: File, writer: FileWriter) {
   def makeTitle    (title:     String):      Unit

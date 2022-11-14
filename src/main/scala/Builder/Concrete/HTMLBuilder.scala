@@ -1,6 +1,8 @@
-package Builder
+package Builder.Concrete
 
-import java.io.{ File, FileWriter }
+import Builder.Abstract.Builder
+
+import java.io.{File, FileWriter}
 
 case class HTMLBuilder(
   fileName: String,

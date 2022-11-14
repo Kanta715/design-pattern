@@ -1,4 +1,6 @@
-package Builder
+package Builder.Director
+
+import Builder.Abstract.Builder
 
 /**
  * Director は Builder という抽象型しかしらない
@@ -7,9 +9,9 @@ package Builder
 case class Director(builder: Builder) {
 
   def build(
-    title:     String,
+    title: String,
     paragraph: String,
-    items:     Seq[String]
+    items: Seq[String]
   ): Unit = {
     builder.makeTitle(title)
     builder.makeParagraph(paragraph)
@@ -20,11 +22,11 @@ case class Director(builder: Builder) {
   // 問2 Director の build メソッドを変える
   // 新しいメソッドを作ったが、TextBuilder, HTMLBuilder に影響はない
   def build(
-    title:      String,
-    paragraph:  String,
-    items:      Seq[String],
+    title: String,
+    paragraph: String,
+    items: Seq[String],
     paragraph2: String,
-    items2:     Seq[String]
+    items2: Seq[String]
   ): Unit = {
     builder.makeTitle(title)
     builder.makeParagraph(paragraph)
