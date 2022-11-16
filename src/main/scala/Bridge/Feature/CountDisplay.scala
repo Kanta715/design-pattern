@@ -11,4 +11,14 @@ case class CountDisplay(impl: DisplayImpl) extends Display(impl) {
     }
     close
   }
+
+  def increasingDisplay(num: Int): Unit = {
+    for (n <- 0 to num) {
+      open
+      for (_ <- 1 to n) {
+        print
+      }
+      close
+    }
+  }
 }
