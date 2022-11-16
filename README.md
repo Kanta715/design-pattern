@@ -37,3 +37,7 @@
 - AbstractFactory
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/AbstractFactory)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/AbstractFactory)
+
+- Bridge
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Bridge)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Bridge)
