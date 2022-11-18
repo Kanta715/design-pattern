@@ -16,7 +16,6 @@ object Main {
      * CharDisplay, StringDisplay を生成
      * Main は、AbstractDisplay 型であることしか知らない
      * Template Pattern に従い実装することで、似たような実装を共通化できる
-     * バグが見つかった際はほとんど場合、Template クラス（スーパークラス）に原因があるため、バグの問題解決が容易になる
      */
     val charDisplay:   AbstractDisplay = CharDisplay(char)
     val stringDisplay: AbstractDisplay = StringDisplay(string)
