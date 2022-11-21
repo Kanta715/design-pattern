@@ -7,9 +7,9 @@ abstract class FactoryForQuestion {
   /**
    * 通し番号と所持者の対応表を持つように強制
    */
-  val list: Seq[(String, Int)]
+  var list: Seq[(String, Int)]
 
-  def createProducts: Seq[Product]
+  def createProducts(owners: Seq[String]): Seq[Product]
 
-  def registerProducts(products: Seq[Product]): Unit
+  def registerProducts(owner: String): Product
 }

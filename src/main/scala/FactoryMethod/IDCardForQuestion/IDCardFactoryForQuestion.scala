@@ -6,20 +6,25 @@ import FactoryMethod.FrameworkForQuestion.FactoryForQuestion
 /**
  * Factory の具象クラス
  */
-case class IDCardFactoryForQuestion(owners: Seq[String]) extends FactoryForQuestion {
+object IDCardFactoryForQuestion extends FactoryForQuestion {
 
   /**
    * 問2では、通し番号と所持者が対応している list が必要なので、zipWithIndex で index, ownerの名前のタプルを返す
    */
-  override lazy val list: Seq[(String, Int)] = owners.zipWithIndex
+  var list: Seq[(String, Int)] = Seq.empty
 
   /**
    * Product のリストを生成する
    */
-  override def createProducts: Seq[Product] = list.map(data => IDCardForQuestion(data._2, data._1))
+  override def createProducts(owners: Seq[String]): Seq[Product] = {
+    list = list ++ owners.zipWithIndex.map(values => (values._1, values._2 + list.size))
+    list.map(v => IDCardForQuestion(v._2, v._1))
+  }
 
-  override def registerProducts(products: Seq[Product]): Unit =
-    for {
-      product <- products
-    } yield println(s"$product を登録しました")
+  override def registerProducts(owner: String): Product = {
+    val product = IDCardForQuestion(list.size, owner)
+    list = list ++ Seq((product.owner, product.sn))
+    println(s"通し番号: ${list.size}, オーナー名: $owner の IDCard を作成しました")
+    product
+  }
 }
