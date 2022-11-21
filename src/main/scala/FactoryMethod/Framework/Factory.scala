@@ -2,7 +2,7 @@ package FactoryMethod.Framework
 
 abstract class Factory {
 
-  def createProduct: Product
+  def createProduct(owner: String): Product
 
   def registerProduct(product: Product): Unit
 }
