@@ -7,6 +7,10 @@ sealed abstract class Hand(val value: Int, val name: String) {
     else if ((this.value + 1) % 3 == hand.value) 1
     else                                         2
   }
+
+  def isStrongerThan(hand: Hand): Boolean = fight(hand) == 1
+
+  def isWeakerThan(hand: Hand): Boolean = fight(hand) == 2
 }
 
 object Hand {
@@ -17,5 +21,5 @@ object Hand {
 
   val values: Seq[Hand] = Seq(ROCK, SCISSORS, PAPER)
 
-  def getHand(value: Int): Hand = values.find(_.value == value).getOrElse(0)
+  def getHand(value: Int): Hand = values.find(_.value == value).getOrElse(Hand.ROCK)
 }
