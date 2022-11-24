@@ -1,7 +1,5 @@
 package Strategy
 
-import scala.util.Random
-
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -14,12 +12,14 @@ object Main {
     val player:  Player = Player(name,  WinningStrategy)
     val player2: Player = Player(name2, ProbStrategy)
 
-    val random: Random = Random
-    for (_ <- 1 to random.nextInt(100)) {
+    for (_ <- 1 to 10000) {
       val hand  = player.nextHand
+      Console.print(player.name)
       println(hand.name)
       val hand2 = player2.nextHand
+      Console.print(player2.name)
       println(hand2.name)
+      println
       if (hand.isStrongerThan(hand2)) {
         println(s"Winner!: ${player.name}")
         player .win
@@ -33,6 +33,8 @@ object Main {
         player .even
         player2.even
       }
+      println
+      println
     }
     println
     println("----------------- TOTAL RESULT ------------------")
