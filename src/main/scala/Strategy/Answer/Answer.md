@@ -5,4 +5,4 @@ Enum でシングルトンオブジェクトなので、同じインスタンス
 Java の boolean には初期値で false が入るから
 
 ## 問4
-独自で ListSort オブジェクトを実装
+独自で ListStringSort オブジェクトを実装
