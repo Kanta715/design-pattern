@@ -8,6 +8,10 @@ lazy val root = (project in file("."))
     name := "design-pattern"
   )
 
+libraryDependencies ++= Seq(
+  "org.joda" % "joda-convert" % "1.8" // http://www.joda.org/joda-convert/
+)
+
 // Uncomment the following for publishing to Sonatype.
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for more detail.
 
