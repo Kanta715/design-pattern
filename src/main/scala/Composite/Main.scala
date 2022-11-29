@@ -1,5 +1,9 @@
 package Composite
 
+import Composite.Answer.{ Married, Single }
+
+import java.time.LocalDate
+
 object Main {
 
   /**
@@ -34,5 +38,14 @@ object Main {
     updatedDirectory.printInfo
     println
     println("-----------------------------------------")
+
+    // -------------------------------------------------
+
+    val naruto   = Married("うずまきナルト", LocalDate.of(2000, 5, 17))
+    val boruto   = Single("うずまきボルト", LocalDate.of(2020, 8, 28))
+    val himawari = Single("うずまきヒマワリ", LocalDate.of(2021, 9, 13))
+    val minato   = Married("波風ミナト", LocalDate.of(1975, 11, 11)).add(naruto.add(boruto).add(himawari))
+
+    minato.printInfo
   }
 }
