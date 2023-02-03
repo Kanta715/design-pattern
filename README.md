@@ -49,3 +49,7 @@
 - Composite
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Composite)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Composite)
+
+- Decorator
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Decorator)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Decorator)
