@@ -1,5 +1,5 @@
 package Observer
 
-trait Observer[A <: Notify] {
+trait Observer[A] {
  def update(notify: A): Unit
 }
