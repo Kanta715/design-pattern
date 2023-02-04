@@ -34,16 +34,3 @@ case class RandomGenerator(
   private def random: Int =
   scala.util.Random.nextInt(1000)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
