@@ -54,6 +54,10 @@
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Decorator)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Decorator)
 
+- Visitor
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Visitor)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Visitor)
+
 - Observer
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Observer)
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Observer)
