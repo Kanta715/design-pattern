@@ -6,10 +6,11 @@ case class Directory(override val name: String, directory: Seq[Entry] = Seq.empt
     directory.map(_.getSize).sum
 
   override def printInfo: Unit = {
-    println(s"$name/$getSize")
+    print(s"$name($getSize)/")
     for {
       entry <- directory
     } entry.printInfo
+    println()
   }
 
   /**
