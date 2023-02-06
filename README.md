@@ -59,8 +59,8 @@
   - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/Visitor)
 
 - ChainOfResposibility
-  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/ChainOfResposibility)
-  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/ChainOfResposibility)
+  - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/ChainOfResponsibility)
+  - [Scala実装](https://github.com/Kanta715/design-pattern/tree/main/src/main/scala/ChainOfResponsibility)
 
 - Observer
   - [Javaサンプル](https://github.com/Kanta715/design-pattern/tree/main/java-sample/src/Observer)
